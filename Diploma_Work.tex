@@ -16,6 +16,36 @@
 \setlength{\parindent}{1.25cm}
 \setlength{\parskip}{2pt}
 
+\titleformat{\section}{\centering\Large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{16pt}{10pt}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+
+\makeatletter
+\renewcommand{\@addpunct}[1]{}
+\makeatother
+\newtheoremstyle{arm}{6pt}{6pt}{\itshape}{}{\bfseries}{։}{0.5em}{}
+\newtheoremstyle{armdef}{6pt}{6pt}{\normalfont}{}{\bfseries}{։}{0.5em}{}
+\theoremstyle{arm}
+\newtheorem{theorem}{Թեորեմ}
+\newtheorem{corollary}{Հետևանք}
+\newtheorem{lemma}{Լեմմա}
+\theoremstyle{armdef}
+\newtheorem{definition}{Սահմանում}
+\newtheorem{remark}{Դիտողություն}
+\newtheorem{example}{Օրինակ}
+\renewcommand{\proofname}{Ապացույց։}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\makeatletter
+\renewenvironment{proof}[1][\proofname]{\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax
+  \trivlist\item[\hskip\labelsep\bfseries #1]\ignorespaces}{\popQED\endtrivlist\@endpefalse}
+\makeatother
+\renewcommand{\contentsname}{Բովանդակություն}
+\renewcommand{\refname}{Օգտագործված գրականության ցանկ}
+\renewcommand{\tablename}{Աղյուսակ}
+\renewcommand{\figurename}{Նկար}
+\numberwithin{equation}{section}
+
 \begin{document}
 
 \end{document}
