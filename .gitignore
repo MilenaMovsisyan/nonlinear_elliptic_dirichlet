@@ -1,0 +1,31 @@
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# synctex temporary file (name contains parentheses)
+*.synctex(busy)
