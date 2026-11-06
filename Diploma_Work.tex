@@ -54,6 +54,31 @@
 \newcommand{\G}{\overline{G}}
 \newcommand{\dd}[2]{\dfrac{\partial #1}{\partial #2}}
 
+\newcommand{\ministry}{%
+  \begin{center}\bfseries
+    ՀԱՅԱՍՏԱՆԻ ՀԱՆՐԱՊԵՏՈՒԹՅԱՆ ԿՐԹՈՒԹՅԱՆ, ԳԻՏՈՒԹՅԱՆ,\\
+    ՄՇԱԿՈՒՅԹԻ ԵՎ ՍՊՈՐՏԻ ՆԱԽԱՐԱՐՈՒԹՅՈՒՆ\\[6pt]
+    ՀԱՅԱՍՏԱՆԻ ԱԶԳԱՅԻՆ ՊՈԼԻՏԵԽՆԻԿԱԿԱՆ ՀԱՄԱԼՍԱՐԱՆ\\[6pt]
+    ԿՄՖ \ Ֆ Ա Կ ՈՒ Լ Տ Ե Տ\\[6pt]
+    ԱՄԲԻՈՆ՝ «ՄԱՍՆԱԳԻՏԱԿԱՆ ՄԱԹԵՄԱՏԻԿԱԿԱՆ ԿՐԹՈՒԹՅՈՒՆ»
+  \end{center}}
+
+\newlength{\siglabw}
+\newlength{\signamew}
+\newlength{\sigavail}
+\newcommand{\sigsetlab}[1]{\settowidth{\siglabw}{#1\ }}
+\newcommand{\sigrow}[2]{%
+  \setlength{\sigavail}{\dimexpr\textwidth-\siglabw-0.4cm-2.8cm\relax}%
+  \settowidth{\signamew}{#2\hspace{0.6cm}}%
+  \ifdim\signamew>\sigavail\setlength{\sigavail}{\signamew}\fi
+  \par\noindent\mbox{\makebox[\siglabw][l]{#1\ }\underline{\makebox[\sigavail][c]{#2}}\hspace{0.4cm}\underline{\makebox[2.8cm]{}}}\par
+  \noindent\mbox{\hspace*{\siglabw}\makebox[\sigavail][c]{\footnotesize(ազգանուն, անուն, հայրանուն)}\hspace{0.4cm}\makebox[2.8cm][c]{\footnotesize(ստորագրություն)}}\par\medskip}
+
+\newcommand{\topicTitle}{Մի ոչ գծային էլիպսական հավասարման համար Դիրիխլեի խնդրի լուծման թվային մեթոդի մշակում և հետազոտում}
+\newcommand{\studentName}{Մովսիսյան Միլենա Վահանի}
+\newcommand{\supervisorName}{Բաբայան Արմենակ Հովհաննեսի}
+\newcommand{\headName}{Խուդոյան Տիգրան Մելիքի}
+
 \begin{document}
 
 \end{document}
