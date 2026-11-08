@@ -154,4 +154,16 @@ Q(x)=\frac14\Big[R^2-\Big(x_1-\frac{l_1}{2}\Big)^2-\Big(x_2-\frac{l_2}{2}\Big)^2
 \end{equation}
 \end{theorem}
 
+\begin{proof}
+\emph{Քայլ 1 (խիստ անհավասարություն)։} Ենթադրենք $L_cw>0$ $G$-ում, և $\G$-ում $w$-ի մեծագույն արժեքը դրական է ու ընդունվում է $x^0\in G$ ներքին կետում։ Այդ կետում $\dfrac{\partial^2w}{\partial x_\alpha^2}\le0$ ($\alpha=1,2$), ուստի
+\[L_cw(x^0)=\Delta w(x^0)-c(x^0)\,w(x^0)\ \le\ 0,\]
+քանի որ $c\ge0$ և $w(x^0)>0$։ Սա հակասում է $L_cw>0$ պայմանին։ Հետևաբար, եթե $w$-ի մեծագույն արժեքը դրական է, ապա այն ընդունվում է $\Gamma$-ի վրա, այսինքն՝ (\ref{eq:max})-ը ճիշտ է։
+
+\emph{Քայլ 2 (ընդհանուր դեպք)։} Նշանակենք $c_{\max}=\max_{\G}c$, $\gamma=\sqrt{c_{\max}+1}$ և $\varphi(x)=e^{\gamma x_1}$։ Այդ դեպքում
+\[L_c\varphi=(\gamma^2-c)\,\varphi\ \ge\ (\gamma^2-c_{\max})\,\varphi=\varphi\ \ge\ 1.\]
+Ցանկացած $\varepsilon>0$ համար $w_\varepsilon=w+\varepsilon\varphi$ ֆունկցիան բավարարում է $L_cw_\varepsilon\ge\varepsilon>0$, ուստի Քայլ 1-ից
+\[\max_{\G}w\ \le\ \max_{\G}w_\varepsilon\ \le\ \max\Big\{0,\ \max_{\Gamma}w_\varepsilon\Big\}\ \le\ \max\Big\{0,\ \max_{\Gamma}w+\varepsilon e^{\gamma l_1}\Big\}.\]
+Անցնելով $\varepsilon\to0$ սահմանին՝ ստանում ենք (\ref{eq:max})-ը։
+\end{proof}
+
 \end{document}
