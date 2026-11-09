@@ -202,4 +202,21 @@ $L_cu=-f$, $u|_\Gamma=\mu$ խնդիրն ունի ամենաշատը մեկ լո�
 Երկու լուծումների տարբերությունը բավարարում է Թեորեմ~\ref{thm:stab1}-ի պայմաններին $g=0$, $\nu=0$ դեպքում, ուստի (\ref{eq:stab1})-ից այն նույնաբար հավասար է զրոյի։
 \end{proof}
 
+\subsection{Ոչ գծային խնդիրը}
+
+Դիտարկենք հետևյալ խնդիրը՝ գտնել $u\in C^2(G)\cap C(\G)$ ֆունկցիա, որը բավարարում է
+
+\begin{equation}\label{eq:nl}
+\Delta u-q(x,u)=-f(x),\qquad x\in G,
+\end{equation}
+\begin{equation}\label{eq:nlbc}
+u(x)=\mu(x),\qquad x\in\Gamma.
+\end{equation}
+Այստեղ $f\in C(\G)$, $\mu\in C(\Gamma)$, իսկ $q(x,u)$-ն տրված ֆունկցիա է, որը ոչ գծային է ըստ $u$-ի։ Ենթադրում ենք, որ $q\in C(\G\times\mathbb R)$, $\dfrac{\partial q}{\partial u}$ ածանցյալը գոյություն ունի և անընդհատ է $\G\times\mathbb R$-ում, ընդ որում
+\begin{equation}\label{eq:mono}
+\dd{q}{u}(x,u)\ \ge\ 0\qquad\text{ցանկացած }x\in\G,\ u\in\mathbb R\text{ համար}.
+\end{equation}
+
+Հավասարման գլխավոր մասը Լապլասի օպերատորն է, ուստի այն էլիպսական է։ Ոչ գծայնությունը մտնում է միայն ստորին կարգի $q(x,u)$ անդամի մեջ, և այդ պատճառով հավասարումը կոչվում է \emph{կիսագծային} (semilinear)։ Երբ $q(x,u)=c(x)\,u$ և $c\ge0$, (\ref{eq:nl})-ը դառնում է $L_cu=-f$ գծային հավասարումը, իսկ (\ref{eq:mono})-ը՝ $c\ge0$ պայմանը։ Այսպիսով, (\ref{eq:mono})-ը գծային դեպքի $c\ge0$ պայմանի ոչ գծային անալոգն է, իսկ Պուասոնի հավասարումը համապատասխանում է $q\equiv0$ դեպքին։
+
 \end{document}
