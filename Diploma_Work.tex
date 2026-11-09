@@ -174,4 +174,20 @@ Q(x)=\frac14\Big[R^2-\Big(x_1-\frac{l_1}{2}\Big)^2-\Big(x_2-\frac{l_2}{2}\Big)^2
 Թեորեմ~\ref{thm:max}-ը կիրառում ենք $-w$ ֆունկցիայի նկատմամբ։
 \end{proof}
 
+\begin{theorem}[կայունություն]\label{thm:stab1}
+Դիցուք $c\in C(\G)$, $c\ge0$, $g\in C(\G)$, իսկ $w\in C^2(G)\cap C(\G)$ ֆունկցիան բավարարում է $L_cw=-g$ հավասարմանը $G$-ում և $w=\nu$ պայմանին $\Gamma$-ի վրա։ Այդ դեպքում
+\begin{equation}\label{eq:stab1}
+\max_{\G}|w|\ \le\ \max_{\Gamma}|\nu|+C_0\max_{\G}|g|,\qquad C_0=\frac{l_1^2+l_2^2}{16}.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Նշանակենք $m=\max_\Gamma|\nu|$, $M=\max_{\G}|g|$ և դիտարկենք $v_{\pm}=m+MQ\mp w$ ֆունկցիաները։ Քանի որ $\Delta Q=-1$, ապա
+\[L_c(m+MQ)=-c\,m-M-c\,MQ\ \le\ -M,\]
+որովհետև $c\ge0$, $m\ge0$, $Q\ge0$։ Բացի այդ, $L_c(\mp w)=\pm g$, ուստի $L_cv_\pm\le-M\pm g\le0$ $G$-ում։ $\Gamma$-ի վրա $v_\pm=m+MQ\mp\nu\ge m-|\nu|\ge0$։ Հետևանք~\ref{cor:min}-ից՝ $v_\pm\ge\min\{0,\min_\Gamma v_\pm\}=0$ ամբողջ $\G$-ում, այսինքն՝
+\begin{equation*}
+|w|\ \le\ m+MQ\ \le\ m+C_0M.
+\end{equation*}
+\end{proof}
+
 \end{document}
