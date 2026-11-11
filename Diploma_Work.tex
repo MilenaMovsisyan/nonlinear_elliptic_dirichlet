@@ -249,6 +249,18 @@ $q(x,u)=u^3$ դեպքում $\dd{q}{u}=3u^2\ge0$, և (\ref{eq:mono})-ը տեղի
 Ֆիքսած $x$-ի համար $s\mapsto q\big(x,v+s(u-v)\big)$ ֆունկցիայի նկատմամբ $[0,1]$ հատվածի վրա կիրառում ենք Նյուտոն--Լայբնիցի բանաձևը։ Ենթաինտեգրալային ֆունկցիան անընդհատ է ըստ $(x,s)$-ի և (\ref{eq:mono})-ի շնորհիվ ոչ բացասական է, ուստի $c$-ն անընդհատ է և ոչ բացասական։
 \end{proof}
 
+\begin{theorem}[համեմատման թեորեմ]\label{thm:comp}
+Դիցուք տեղի ունի (\ref{eq:mono})-ը, $u,v\in C^2(G)\cap C(\G)$,
+\[\Delta u-q(x,u)\ \ge\ \Delta v-q(x,v)\quad G\text{-ում},\qquad u\le v\quad\Gamma\text{-ի վրա}.\]
+Այդ դեպքում $u\le v$ ամբողջ $\G$-ում։
+\end{theorem}
+
+\begin{proof}
+Նշանակենք $w=u-v$։ Լեմմա~\ref{lem:lin}-ով
+\[\Delta w-c(x)\,w=\big[\Delta u-q(x,u)\big]-\big[\Delta v-q(x,v)\big]\ \ge\ 0,\]
+այսինքն՝ $L_cw\ge0$, որտեղ $c\ge0$։ Քանի որ $w\le0$ $\Gamma$-ի վրա, Թեորեմ~\ref{thm:max}-ից $\max_{\G}w\le\max\{0,\max_\Gamma w\}=0$։
+\end{proof}
+
 \newpage
 \phantomsection
 \addcontentsline{toc}{section}{\refname}
