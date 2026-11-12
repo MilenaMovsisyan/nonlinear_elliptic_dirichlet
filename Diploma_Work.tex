@@ -274,6 +274,24 @@ $q(x,u)=u^3$ դեպքում $\dd{q}{u}=3u^2\ge0$, և (\ref{eq:mono})-ը տեղի
 Մնում է կիրառել Թեորեմ~\ref{thm:stab1}-ը $g=f-\tilde f$, $\nu=\mu-\tilde\mu$ դեպքում։ Քանի որ նրա $C_0$ հաստատունը կախված չէ $c$-ից (իսկ $c$-ն կախված է լուծումներից), ստանում ենք (\ref{eq:stab2})-ը։
 \end{proof}
 
+\begin{corollary}[եզակիություն]\label{cor:uniq}
+Եթե տեղի ունի (\ref{eq:mono})-ը, ապա (\ref{eq:nl})--(\ref{eq:nlbc}) խնդիրն ունի ամենաշատը մեկ լուծում։
+\end{corollary}
+
+\begin{proof}
+Թեորեմ~\ref{thm:stab2}-ում վերցնում ենք $\tilde f=f$, $\tilde\mu=\mu$։
+\end{proof}
+
+\begin{corollary}[ապրիորի գնահատական]\label{cor:apriori}
+Եթե տեղի ունի (\ref{eq:mono})-ը, ապա (\ref{eq:nl})--(\ref{eq:nlbc}) խնդրի լուծման համար
+\[\max_{\G}|u|\ \le\ \max_{\Gamma}|\mu|+C_0\max_{\G}\big|f(x)-q(x,0)\big|.\]
+Մասնավորապես, $q(x,0)=0$ դեպքում (օրինակ՝ $q=a\sinh u$ կամ $q=u^3$) $\max_{\G}|u|\le\max_\Gamma|\mu|+C_0\max_{\G}|f|$։
+\end{corollary}
+
+\begin{proof}
+$\tilde u\equiv0$ ֆունկցիան բավարարում է (\ref{eq:nl})--(\ref{eq:nlbc}) խնդրին $\tilde f(x)=q(x,0)$, $\tilde\mu=0$ տվյալների համար։ Մնում է կիրառել (\ref{eq:stab2})-ը։
+\end{proof}
+
 \newpage
 \phantomsection
 \addcontentsline{toc}{section}{\refname}
