@@ -342,6 +342,23 @@ y_{\bar x_2x_2,ij}=\frac{y_{i,j+1}-2y_{ij}+y_{i,j-1}}{h_2^2}.
 \[(\Lambda y)_{ij}-a\sinh y_{ij}=-f(x_{ij}).\]
 \end{example}
 
+\subsection{Սխեմայի կանոնական և մատրիցային տեսքերը}
+
+Հետագա ուսումնասիրության համար (\ref{eq:gridscheme}) հավասարումը գրենք \cite[մաս~III, գլ.~2, §~1, կետ~2, էջ~293]{sam}-ի \emph{կանոնական տեսքով}՝ ոչ գծային անդամը թողնելով առանձին՝
+\begin{equation}\label{eq:canon}
+A_0\,y(x)+q\big(x,y(x)\big)=\sum_{\xi\in\mathcal N(x)}B(x,\xi)\,y(\xi)+F(x),\qquad x=x_{ij}\in\omega,
+\end{equation}
+որտեղ $\mathcal N(x)$-ը $x$ կետի չորս հարևան հանգույցների բազմությունն է, իսկ գործակիցներն են՝
+\begin{equation}\label{eq:ABF}
+A_0=\frac{2}{h_1^2}+\frac{2}{h_2^2},\qquad
+B(x,x_{i\pm1,j})=\frac1{h_1^2},\quad B(x,x_{i,j\pm1})=\frac1{h_2^2},\qquad F(x)=\varphi_{ij}.
+\end{equation}
+Այս գործակիցներն օժտված են հետևյալ հատկություններով՝
+\begin{equation}\label{eq:props}
+A_0>0,\qquad B(x,\xi)>0,\qquad A_0=\sum_{\xi\in\mathcal N(x)}B(x,\xi),
+\end{equation}
+որոնք համընկնում են \cite[մաս~III, գլ.~2, §~1, (8) պայմաններ, էջ~294]{sam}-ում Պուասոնի սխեմայի հատկությունների հետ, և ոչ գծային անդամի համար տեղի ունի (\ref{eq:mono}) պայմանը՝ $\dd{q}{u}\ge0$։
+
 \newpage
 \phantomsection
 \addcontentsline{toc}{section}{\refname}
