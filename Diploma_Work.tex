@@ -396,6 +396,20 @@ $q(y)$ վեկտորի յուրաքանչյուր կոորդինատ կախված
 Բաժանելով $h^2$-ի և գնահատելով $v^{(4)}$-ը՝ ստանում ենք պահանջվող անհավասարությունը։
 \end{proof}
 
+\begin{theorem}[մոտարկման կարգը]\label{thm:approx}
+Դիցուք $u\in C^4(\G)$ և $M_\alpha=\max_{\G}\Big|\dfrac{\partial^4u}{\partial x_\alpha^4}\Big|$, $\alpha=1,2$։ Այդ դեպքում ցանկացած $x_{ij}\in\omega$ համար
+\begin{equation}\label{eq:approx}
+|\psi_{ij}|\ \le\ \frac{M_1}{12}\,h_1^2+\frac{M_2}{12}\,h_2^2\ \le\ \frac{M}{12}\,(h_1^2+h_2^2),\qquad M=\max\{M_1,M_2\},
+\end{equation}
+այսինքն՝ (\ref{eq:gridscheme}) սխեման մոտարկում է (\ref{eq:nl})--(\ref{eq:nlbc}) խնդիրը երկրորդ կարգով։
+\end{theorem}
+
+\begin{proof}
+(\ref{eq:psi})-ից և (\ref{eq:Lambdah}), (\ref{eq:seconddiff})-ից
+\[\psi_{ij}=\Big(u_{\bar x_1x_1}-\frac{\partial^2u}{\partial x_1^2}\Big)(x_{ij})+\Big(u_{\bar x_2x_2}-\frac{\partial^2u}{\partial x_2^2}\Big)(x_{ij}).\]
+Ըստ $x_1$-ի՝ ֆիքսենք $x_2=x_j$ և կիրառենք Լեմմա~\ref{lem:1d}-ը $v(x_1)=u(x_1,x_j)$ ֆունկցիայի համար։ Առաջին գումարելին մոդուլով չի գերազանցում $\dfrac{h_1^2}{12}M_1$-ը։ Նույն ձևով երկրորդ գումարելին չի գերազանցում $\dfrac{h_2^2}{12}M_2$-ը։ Գումարելով՝ ստանում ենք (\ref{eq:approx})-ը։
+\end{proof}
+
 \newpage
 \phantomsection
 \addcontentsline{toc}{section}{\refname}
