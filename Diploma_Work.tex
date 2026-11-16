@@ -2,7 +2,12 @@
 
 \usepackage{fontspec}
 
-\IfFontExistsTF{Sylfaen}{\setmainfont{Sylfaen}}{\setmainfont{DejaVu Serif}}
+\IfFontExistsTF{Sylfaen}{%
+  \setmainfont{Sylfaen}[
+    BoldFont=Sylfaen,       BoldFeatures={FakeBold=2.5},
+    ItalicFont=Sylfaen,     ItalicFeatures={FakeSlant=0.2},
+    BoldItalicFont=Sylfaen, BoldItalicFeatures={FakeBold=2.5,FakeSlant=0.2}]%
+}{\setmainfont{DejaVu Serif}}
 
 \usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2.2cm]{geometry}
 \usepackage{amsmath,amssymb,amsthm}
