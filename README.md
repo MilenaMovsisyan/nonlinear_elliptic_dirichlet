@@ -32,15 +32,6 @@ comparison, uniqueness and stability for the nonlinear problem.
 | 4 | Solving the nonlinear grid system (Picard / Newton iteration) | planned |
 | 5 | Numerical experiments | planned |
 
-## Building the PDF
-
-The text is Armenian, so it must be compiled with **XeLaTeX** (font Sylfaen if installed, otherwise DejaVu Serif).
-Run it twice to get the table of contents and references:
-
-```
-xelatex Diploma_Work.tex
-xelatex Diploma_Work.tex
-```
 
 ## Օգտագործված գրականություն
 
