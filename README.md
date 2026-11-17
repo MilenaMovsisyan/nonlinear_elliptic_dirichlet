@@ -22,16 +22,15 @@ comparison, uniqueness and stability for the nonlinear problem.
 | `Diploma_Work.tex` | LaTeX source (single file, XeLaTeX) |
 | `Diploma_Work.pdf` | compiled text |
 
-## Status
+## Աշխատանքի կառուցվածքը և կարգավիճակը
 
-| Section | Content | Status |
+| Բաժին | Բովանդակություն | Կարգավիճակ |
 |---|---|---|
-| 1 | Problem statement: Poisson problem, maximum principle, semilinear problem, linearization, comparison theorem, stability and uniqueness | done |
-| 2 | Grid and five-point scheme, canonical and matrix form, second-order approximation | done |
-| 3 | Grid problem: solvability, stability, convergence | planned |
-| 4 | Solving the nonlinear grid system (Picard / Newton iteration) | planned |
-| 5 | Numerical experiments | planned |
-
+| 1 | Խնդրի դրվածքը. Պուասոնի հավասարում, մաքսիմումի սկզբունք, կիսագծային խնդիր, գծայնացում, համեմատման թեորեմ, կայունություն և միակություն | ավարտված |
+| 2 | Ցանցային սխեմայի կառուցումը. ցանց, հնգակետանի սխեմա, կանոնական և մատրիցային տեսք, երկրորդ կարգի մոտարկում | ավարտված |
+| 3 | Ցանցային խնդրի լուծման գոյություն, միակություն, կայունություն և զուգամիտություն | պլանավորված |
+| 4 | Ոչ գծային ցանցային համակարգի լուծման մեթոդներ | պլանավորված |
+| 5 | Թվային փորձեր | պլանավորված |
 
 ## Օգտագործված գրականություն
 
