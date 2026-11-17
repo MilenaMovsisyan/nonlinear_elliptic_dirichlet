@@ -42,10 +42,10 @@ xelatex Diploma_Work.tex
 xelatex Diploma_Work.tex
 ```
 
-## Sources
+## Օգտագործված գրականություն
 
-1. A. A. Samarskii, A. V. Gulin, *Numerical methods* (in Russian), Nauka, Moscow, 1989 - Part III, Ch. 1 and 2.
-2. N. S. Bakhvalov, N. P. Zhidkov, G. M. Kobelkov, *Numerical methods* (in Russian), BINOM, Moscow, 2004 - Ch. 10 (sections 1 and 6), Ch. 7.
-3. P. A. Markowich, *Applied Partial Differential Equations: A Visual Approach*, Springer, Berlin, 2007 - Ch. 5.
+1. Самарский А. А., Гулин А. В., Численные методы, Москва, «Наука», 1989.
+2. Бахвалов Н. С., Жидков Н. П., Кобельков Г. М., Численные методы, Москва, «БИНОМ. Лаборатория знаний», 2004.
+3. Markowich P. A., Applied Partial Differential Equations: A Visual Approach, Berlin, Springer, 2007.
 
-The books themselves are not part of this repository.
+Օգտագործված բաժիններ՝ [1]՝ մաս III, գլ. 1 (§ 1–3, 6) և գլ. 2. [2]՝ գլ. 10 (§ 1, § 6). [3]՝ գլ. 5։
