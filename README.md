@@ -15,12 +15,12 @@ is reduced to a grid problem and solved numerically. The model nonlinearity is `
 serves as the baseline, and its maximum principle is reused through linearization to prove
 comparison, uniqueness and stability for the nonlinear problem.
 
-## Files
+## Ֆայլեր
 
-| File | Content |
+| Ֆայլ | Բովանդակություն |
 |---|---|
-| `Diploma_Work.tex` | LaTeX source (single file, XeLaTeX) |
-| `Diploma_Work.pdf` | compiled text |
+| `Diploma_Work.tex` | LaTeX (XeLaTeX)|
+| `Diploma_Work.pdf` | pdf |
 
 ## Աշխատանքի կառուցվածքը և կարգավիճակը
 
