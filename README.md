@@ -1,19 +1,12 @@
-# Numerical method for the Dirichlet problem for a nonlinear elliptic equation
+# Մի ոչ գծային էլիպսական հավասարման համար Դիրիխլեի խնդրի լուծման թվային մեթոդի մշակում և հետազոտում
 
-Diploma work (written in Armenian), Yerevan 2026.
+Դիպլոմային աշխատանք, Երևան 2026։
 
-**Topic (hy):** Մի ոչ գծային էլիպսական հավասարման համար Դիրիխլեի խնդրի լուծման թվային մեթոդի մշակում և հետազոտում
+## Համառոտ նկարագրություն
 
-The Dirichlet problem for a semilinear elliptic equation
-
-```
-Δu − q(x, u) = −f(x)   in a rectangle G,      u = μ   on the boundary Γ,      ∂q/∂u ≥ 0,
-```
-
-is reduced to a grid problem and solved numerically. The model nonlinearity is `q = a·sinh u`
-(the equilibrium potential of a semiconductor, the mean-field equation). The linear Poisson problem
-serves as the baseline, and its maximum principle is reused through linearization to prove
-comparison, uniqueness and stability for the nonlinear problem.
+Դիտարկվում է Դիրխլեի եզրային խնդիրը ոչ գծային էլիպսական հավասարման
+համար: Խնդիրը բերվում է ցանցային խնդրին, որը լուծվում է թվային մեթոդի
+միջոցով:
 
 ## Ֆայլեր
 
