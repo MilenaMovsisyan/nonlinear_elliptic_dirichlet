@@ -27,3 +27,8 @@ $`Q(x)=\frac14\Big[R^2-\Big(x_1-\frac{l_1}{2}\Big)^2-\Big(x_2-\frac{l_2}{2}\Big)
 Ուղղակի հաշվարկով $`\Delta Q=-1`$, իսկ $`\overline{G}`$-ի ցանկացած կետի հեռավորությունը կենտրոնից չի գերազանցում $`R`$-ը, ուստի
 
 $`0\le Q(x)\le\frac{R^2}{4}=C_0,\qquad C_0=\frac{l_1^2+l_2^2}{16},\qquad x\in\overline{G}.`$　(1.5)
+
+**Թեորեմ 1 (մաքսիմումի սկզբունք)։**
+Դիցուք $`c\in C(\overline{G})`$, $`c\ge0`$, $`w\in C^2(G)\cap C(\overline{G})`$ և $`L_cw\ge0`$ $`G`$-ում։ Այդ դեպքում
+
+$`\max_{\overline{G}}w\ \le\ \max\Big\{0,\ \max_{\Gamma}w\Big\}.`$　(1.6)
